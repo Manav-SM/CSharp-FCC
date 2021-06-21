@@ -20,6 +20,21 @@ namespace ConsoleApp1
             Console.WriteLine(" /   |");
             Console.WriteLine("/____|");*/
 
+            string characterName = "George";
+            float characterAge = 70;
+
+            Console.WriteLine("He was " + characterAge + " years old");
+            Console.WriteLine("His name was " + characterName );
+
+            /*Console.WriteLine("There was once a man named George");
+            Console.WriteLine("He was 70 years old");
+            Console.WriteLine("He really liked the name George");
+            Console.WriteLine("He didn't like being 70");*/
+
+
+
+
+
             Console.ReadLine();
         }
     }
