@@ -25,6 +25,8 @@ namespace ConsoleApp1
 
             Console.WriteLine("He was " + characterAge + " years old");
             Console.WriteLine("His name was " + characterName );
+            Console.WriteLine("He liked his name " +characterName);
+            Console.WriteLine("He did not like being reminded he was " + characterAge + " years old");
 
             /*Console.WriteLine("There was once a man named George");
             Console.WriteLine("He was 70 years old");
