@@ -10,9 +10,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Greetings Earthlings!");
+            /*Console.WriteLine("Greetings Earthlings!");
             Console.WriteLine("Middle");
             Console.WriteLine("Goodbye World!");
+
+            Console.WriteLine("    /|");
+            Console.WriteLine("   / |");
+            Console.WriteLine("  /  |");
+            Console.WriteLine(" /   |");
+            Console.WriteLine("/____|");*/
+
+            Console.ReadLine();
         }
     }
 }
