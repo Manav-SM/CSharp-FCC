@@ -18,17 +18,21 @@ namespace ConsoleApp1
             Console.WriteLine("   / |");
             Console.WriteLine("  /  |");
             Console.WriteLine(" /   |");
-            Console.WriteLine("/____|");*/
+            Console.WriteLine("/____|");
 
             string characterName = "George";
             float characterAge = 70;
 
             Console.WriteLine("He was " + characterAge + " years old");
             Console.WriteLine("His name was " + characterName );
-            Console.WriteLine("He liked his name " +characterName);
-            Console.WriteLine("He did not like being reminded he was " + characterAge + " years old");
 
-            /*Console.WriteLine("There was once a man named George");
+            characterName = "Mike";
+            characterAge = 30;
+
+            Console.WriteLine("He wished his name was " +characterName);
+            Console.WriteLine("He wished he was " + characterAge + " years old forever");
+
+            Console.WriteLine("There was once a man named George");
             Console.WriteLine("He was 70 years old");
             Console.WriteLine("He really liked the name George");
             Console.WriteLine("He didn't like being 70");*/
