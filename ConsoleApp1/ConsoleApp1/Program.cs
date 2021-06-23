@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            /*Console.WriteLine("Greetings Earthlings!");
+            Console.WriteLine("Greetings Earthlings!");
             Console.WriteLine("Middle");
             Console.WriteLine("Goodbye World!");
 
@@ -35,11 +35,19 @@ namespace ConsoleApp1
             Console.WriteLine("There was once a man named George");
             Console.WriteLine("He was 70 years old");
             Console.WriteLine("He really liked the name George");
-            Console.WriteLine("He didn't like being 70");*/
+            Console.WriteLine("He didn't like being 70");
 
+            string phrase = "Giraffe Academy";
+            char grade = 'A';
+            int age = 45;
+            double number = 45.5451;
+            bool isMale = true;
 
-
-
+            Console.WriteLine(phrase);
+            Console.WriteLine(grade);
+            Console.WriteLine(age);
+            Console.WriteLine(number);
+            Console.WriteLine(isMale);
 
             Console.ReadLine();
         }
