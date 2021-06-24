@@ -54,7 +54,6 @@ namespace ConsoleApp1
             Console.WriteLine(isMale);
 
             //Working with Strings
-
             Console.WriteLine("Giraffe\nAcademy");
             string phrase2 = "Giraffe Academy " + "is cool";
             Console.WriteLine(phrase2);
@@ -69,6 +68,24 @@ namespace ConsoleApp1
             Console.WriteLine(phrase2.IndexOf("hot"));
             Console.WriteLine(phrase2.Substring(4,2));
 
+            //Working with Numbers
+
+            Console.WriteLine(-426.24566);
+            Console.WriteLine(8245.66);
+            Console.WriteLine(894 + 4894 - 4651);
+            Console.WriteLine(7 % 5);
+            Console.WriteLine(83.9 + 448.97);
+            Console.WriteLine(12.6 + 84);
+            Console.WriteLine(12 / 2.5);
+            int num = 6;
+            Console.WriteLine(num);
+            num++;
+            Console.WriteLine(num);
+            Console.WriteLine(Math.Abs(-40));
+            Console.WriteLine(Math.Pow(27.5, 2));
+            Console.WriteLine(Math.Sqrt(81));
+            Console.WriteLine(Math.Max(44,65));
+            Console.WriteLine(Math.Round(55.78));
 
 
 
