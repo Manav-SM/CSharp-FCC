@@ -107,11 +107,11 @@ namespace ConsoleApp1
             Console.WriteLine(friends[1]);
             Console.WriteLine(luckyNumbers[5]);
             */
-            
+
             //Methods
-
-
-
+            SayHi("Manav", 27);
+            SayHi("Amey", 27);
+            SayHi("Amogh", 30);
 
 
 
@@ -119,6 +119,11 @@ namespace ConsoleApp1
 
 
             Console.ReadLine();
+        }
+
+        static void SayHi (string name, int age)
+        {
+            Console.WriteLine("Say Hi, "+ name +" you are " + age + " years old.");
         }
     }
 }
