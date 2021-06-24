@@ -115,7 +115,7 @@ namespace ConsoleApp1
 
             cube(9);
             Console.WriteLine(cube(11));
-            */
+            
 
             //Loops
 
@@ -147,7 +147,7 @@ namespace ConsoleApp1
                 Console.WriteLine(testIndex);
                 testIndex++;
             }
-
+            */
 
 
 
