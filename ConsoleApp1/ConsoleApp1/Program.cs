@@ -106,7 +106,7 @@ namespace ConsoleApp1
 
             Console.WriteLine(friends[1]);
             Console.WriteLine(luckyNumbers[5]);
-            */
+            
 
             //Methods
             SayHi("Manav", 27);
@@ -115,12 +115,57 @@ namespace ConsoleApp1
 
             cube(9);
             Console.WriteLine(cube(11));
+            */
+
+            //Loops
+
+            bool isMale = false;
+            bool isTall = true;
+
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are a tall male");
+            } 
+            else if (isMale && !isTall)
+            {
+                Console.WriteLine("You are male and short");
+            }
+            else if (!isMale && isTall)
+            {
+                Console.WriteLine("You are tall and not a male");
+            }
+            else
+            {
+                Console.WriteLine("You are neither a male nor tall");
+            }
+
+            Console.WriteLine(GetMax(7, 41));
+
+
+
+
+
+
+
 
 
 
             Console.ReadLine();
         }
+        static int GetMax(int num1, int num2)
+        {
+            int result;
 
+            if(num1<num2)
+            {
+                result = num2;
+            }else
+            {
+                result = num1;
+            }
+
+            return result;
+        }
         static void SayHi (string name, int age)
         {
             Console.WriteLine("Say Hi, "+ name +" you are " + age + " years old.");
