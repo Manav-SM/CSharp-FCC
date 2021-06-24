@@ -10,6 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
             
             Console.WriteLine("Greetings Earthlings!");
             Console.WriteLine("Middle");
@@ -69,7 +70,6 @@ namespace ConsoleApp1
             Console.WriteLine(phrase2.Substring(4,2));
 
             //Working with Numbers
-
             Console.WriteLine(-426.24566);
             Console.WriteLine(8245.66);
             Console.WriteLine(894 + 4894 - 4651);
@@ -86,6 +86,19 @@ namespace ConsoleApp1
             Console.WriteLine(Math.Sqrt(81));
             Console.WriteLine(Math.Max(44,65));
             Console.WriteLine(Math.Round(55.78));
+            
+
+            //Getting User Input
+            Console.Write("Enter your name: ");
+            string name2 = Console.ReadLine();
+            Console.WriteLine("Hello " + name2);
+            Console.Write("Enter your age: ");
+            string age2 = Console.ReadLine();
+            Console.WriteLine("Hello " + name2 + ", you are " + age2 + " years old");
+
+
+
+
 
 
 
