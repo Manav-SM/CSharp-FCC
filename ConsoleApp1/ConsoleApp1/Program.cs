@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            
+            /*
             Console.WriteLine("Greetings Earthlings!");
             Console.WriteLine("Middle");
             Console.WriteLine("Goodbye World!");
@@ -95,6 +95,21 @@ namespace ConsoleApp1
             Console.Write("Enter your age: ");
             string age2 = Console.ReadLine();
             Console.WriteLine("Hello " + name2 + ", you are " + age2 + " years old");
+            
+            //Arrays
+            int[] luckyNumbers = {2,3,5,7,11,13 };
+            string[] friends = new string[5];
+
+            friends[0] = "Amey";
+            friends[1] = "Amogh";
+
+
+            Console.WriteLine(friends[1]);
+            Console.WriteLine(luckyNumbers[5]);
+            */
+            
+            //Methods
+
 
 
 
