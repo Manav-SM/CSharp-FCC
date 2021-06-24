@@ -113,8 +113,8 @@ namespace ConsoleApp1
             SayHi("Amey", 27);
             SayHi("Amogh", 30);
 
-
-
+            cube(9);
+            Console.WriteLine(cube(11));
 
 
 
@@ -125,5 +125,12 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Say Hi, "+ name +" you are " + age + " years old.");
         }
+
+        static int cube(int num)
+        {
+            int result = num * num * num;
+            return result;
+        }
+
     }
 }
