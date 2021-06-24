@@ -141,6 +141,12 @@ namespace ConsoleApp1
 
             Console.WriteLine(GetMax(7, 41));
 
+            int testIndex = 1;
+            while(testIndex<= 10)
+            {
+                Console.WriteLine(testIndex);
+                testIndex++;
+            }
 
 
 
