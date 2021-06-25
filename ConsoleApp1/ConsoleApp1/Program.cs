@@ -147,6 +147,33 @@ namespace ConsoleApp1
                 Console.WriteLine(testIndex);
                 testIndex++;
             }
+           
+
+            Console.WriteLine(GetPow(5, 3));
+            
+
+            //Array
+
+            int[,] numberGrid =
+            {
+                {1,2 },
+                {3,4 },
+                {5,6 }
+            };
+
+            Console.WriteLine(numberGrid[1, 1]);
+            int rowLength = numberGrid.GetLength(0);
+            int colLength = numberGrid.GetLength(1);
+
+
+            for (int i = 0; i < rowLength; i ++)
+            {
+                for (int j = 0; j < colLength; j++)
+                {
+                    Console.Write(numberGrid[i, j]);
+                }
+                Console.WriteLine();
+            }
             */
 
 
@@ -156,7 +183,21 @@ namespace ConsoleApp1
 
 
 
+
+
+
             Console.ReadLine();
+        }
+        static int GetPow(int baseNum, int powNum)
+        {
+            int result3 = 1;
+
+            for(int i=0; i<powNum; i++)
+            {
+                result3 = result3 * baseNum;
+            }
+
+            return result3;
         }
         static int GetMax(int num1, int num2)
         {
