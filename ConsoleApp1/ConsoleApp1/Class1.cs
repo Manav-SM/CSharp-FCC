@@ -18,6 +18,5 @@ namespace ConsoleApp1
             author = aAuthor;
             pages = aPages;
         }
-
     }
 }

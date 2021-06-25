@@ -174,23 +174,23 @@ namespace ConsoleApp1
                 }
                 Console.WriteLine();
             }
-            */
+            
 
             //Classes and Objects
 
             Class1 book1 = new Class1("Harry Potter", "JK Rowling",500);
-            /*
+           
             book1.title = "Harry Potter";
             book1.author = "JK Rowling";
             book1.pages = 500;
-            */
+            
 
             Class1 book2 = new Class1("Lord Of The Rings", "JR Tolkein", 1200 );
-            /*
+            
             book2.title = "Lord Of The Rings";
             book2.author = "JR Tolkein";
             book2.pages = 1200;
-            */
+          
 
             Console.WriteLine(book1.title);
             Console.WriteLine(book1.author);
@@ -199,14 +199,25 @@ namespace ConsoleApp1
             Console.WriteLine(book2.title);
             Console.WriteLine(book2.author);
             Console.WriteLine(book2.pages);
-           
 
 
+            Class2 student1 = new Class2("Amey", "Hotel", 3.6);
+            Class2 student2 = new Class2("Amogh", "Law", 2.2);
 
 
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
 
 
+            Class3 avengers = new Class3("The Avengers", "Joss Whedon", "PG-13");
+            Class3 shrek = new Class3("Shrek", "Adam Adamson", "PG");
 
+            shrek.Rating = "donkey";
+            avengers.Rating = "R";
+
+            Console.WriteLine(avengers.Rating);
+            Console.WriteLine(shrek.Rating);
+            */
 
 
 
