@@ -178,15 +178,19 @@ namespace ConsoleApp1
 
             //Classes and Objects
 
-            Class1 book1 = new Class1();
+            Class1 book1 = new Class1("Harry Potter", "JK Rowling",500);
+            /*
             book1.title = "Harry Potter";
             book1.author = "JK Rowling";
             book1.pages = 500;
+            */
 
-            Class1 book2 = new Class1();
+            Class1 book2 = new Class1("Lord Of The Rings", "JR Tolkein", 1200 );
+            /*
             book2.title = "Lord Of The Rings";
             book2.author = "JR Tolkein";
             book2.pages = 1200;
+            */
 
             Console.WriteLine(book1.title);
             Console.WriteLine(book1.author);

@@ -11,5 +11,13 @@ namespace ConsoleApp1
         public string title;
         public string author;
         public int pages;
+
+        public Class1(string aTitle, string aAuthor, int aPages)
+        {
+            title = aTitle;
+            author = aAuthor;
+            pages = aPages;
+        }
+
     }
 }
